@@ -100,7 +100,7 @@ set ai " auto-indent
 call GK_lcs()
 set list
 set breakindent
-" call GK_tabSet(8)
+call GK_tabSet(4)
 
 syntax on
 set termguicolors
@@ -116,4 +116,3 @@ set nu rnu " line numbers
 let g:netrw_bufsettings='noma nomod nu rnu' " line numbers in explorer
 
 set belloff=all
-set mouse-=a " disable mouse
